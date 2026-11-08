@@ -49,5 +49,6 @@ PROFILE = {
     "title" : "Etudiante en M1 Health AI & Data",
     "email" : "awadinnaira@gmail.com",
     "github" : "https://github.com/NairaAwadin",
+    "linkedin" : "https://www.linkedin.com/in/naira-awadin-763367260",
     "about" : "J'aime apprendre et m'intéresser à différents domaines. Chaque expérience me permet de découvrir ce qui me plaît et ce que j'ai envie de continuer à explorer.\n\nAujourd'hui, je m'intéresse particulièrement à l'IA, la Data et leurs applications dans le domaine de la santé. Et à côté de mes études, j'aime m'investir dans des projets associatifs et rencontrer de nouvelles personnes.",
 }
