@@ -36,13 +36,17 @@ PROJECTS = [
     },
 ]
 
-SKILLS = {"Python":70, "Django":60, "C":50, "C++":50, "Git":70, "Linux":65}
+SKILLS = {"Python":70, "Django":70, "Laravel":40, "PostgreSQL":60,"Matplotlib":70, "Tkinter":50, "Sklearn":40, "Streamlit":60, "C":65, "C++":50}
 
-# quest 3: pour les projets on a utilisé une liste de dictionnaire, parce qu'on a plusieurs projets 
+# question 3: pour les projets on a utilisé une liste de dictionnaire, parce qu'on a plusieurs projets 
 #   et chaque projet a plusieurs champs. C'est plus pratique pour les afficher plus tard, ou,
 #   pour ajouter un nouveau projet, on aura pas besoin de modifier le code.
 # En revanche les skills, on les met dans un dictionnaire simple, parce que la seule info dont on a
 #   besoin le niveau.
+
+SOFT_SKILLS = ["Travail en équipe", "Gestion de Projet", "Adaptabilité"]
+
+TOOLS = ["GitHub", "Jupyter", "Linux", "Notion", "Excel", "Jira", "GanttProject"]
 
 PROFILE = {
     "name" : "Naira Awadin",
@@ -52,3 +56,10 @@ PROFILE = {
     "linkedin" : "https://www.linkedin.com/in/naira-awadin-763367260",
     "about" : "J'aime apprendre et m'intéresser à différents domaines. Chaque expérience me permet de découvrir ce qui me plaît et ce que j'ai envie de continuer à explorer.\n\nAujourd'hui, je m'intéresse particulièrement à l'IA, la Data et leurs applications dans le domaine de la santé. Et à côté de mes études, j'aime m'investir dans des projets associatifs et rencontrer de nouvelles personnes.",
 }
+
+TIMELINE = [
+    ("2026 - 2028", "Master Health AI & Data", "Université Bourgogne Europe, Dijon"),
+    ("2025 - 2026", "Bachelor Data IA", "Ecole Centrale d'Electronique, Paris"),
+    ("2024 - 2025", "Bachelor Chef de projets digitaux", "EEMI, Paris"),
+    ("2022 - 2024", "Parcours Grande Ecole", "EPITECH, Paris")
+]
