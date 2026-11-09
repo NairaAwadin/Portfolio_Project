@@ -17,6 +17,7 @@ pages = [
     st.Page("pages/home.py", title="A propos", icon=":material/person:"),
     st.Page("pages/projects.py", title="Mes Projets", icon=":material/code:"),
     st.Page("pages/skills.py", title="Compétences", icon=":material/bar_chart:"),
+    st.Page("pages/education.py", title="Education", icon=":material/school:"),
     st.Page("pages/contact.py", title="Contacte", icon=":material/mail:")
 ]
 
