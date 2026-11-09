@@ -24,3 +24,6 @@ def filter_projects(projects, chosen):
 
 #print(len(filter_projects(PROJECTS, [])))                    # 5
 #print(len(filter_projects(PROJECTS, ["C++"])))                    # 5
+
+def get_year(project):
+    return project["year"]
