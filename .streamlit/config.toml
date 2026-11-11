@@ -1,0 +1,20 @@
+[theme.light]
+
+primaryColor = "#6B1F3A"
+backgroundColor = "#F6EEE3"
+secondaryBackgroundColor = "#DDE2C3"
+borderColor = "#6B1F3A"
+baseRadius = "large"
+textColor = "#3A1624"
+
+[theme.light.sidebar]
+backgroundColor = "#6B7036"
+secondaryBackgroundColor = "#58602B"
+textColor = "#F6EEE3"
+primaryColor = "#F2A33A"
+linkColor = "#F2C14E"
+
+[theme.dark]
+backgroundColor = "#3A1624"
+
+[theme.dark.sidebar]
