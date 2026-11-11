@@ -11,9 +11,15 @@ with st.sidebar:
     st.image("assets/photo.png", width=110)
     st.markdown(f"### {PROFILE['name']}")
     st.caption(PROFILE["title"])
-    st.divider()
     st.markdown(f":material/work: [LinkedIn]({PROFILE['linkedin']})")
     st.markdown(f":material/code: [GitHub]({PROFILE['github']})")
+
+    st.divider()
+
+    if "visits" not in st.session_state:
+        st.session_state["visits"] = 0
+    st.session_state["visits"] += 1
+    st.caption(f"T'as interagis {st.session_state['visits']} fois avec le site !")
 
 app_pages = [
     st.Page("app_pages/home.py", title="A propos", icon=":material/person:"),
