@@ -33,7 +33,7 @@ def get_year(project):
 
 def check_informations(name, email, message):
     valid = True
-    if name == "":
+    if name.strip() == "":
         valid = False
 
     if "@" not in email or "." not in email:
