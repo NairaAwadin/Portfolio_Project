@@ -8,17 +8,20 @@ st.set_page_config(
     )
 
 with st.sidebar:
-    #st.image("assets/photo.png", width=120)
+    st.image("assets/photo.png", width=110)
     st.markdown(f"### {PROFILE['name']}")
-    st.markdown(f"[LinkedIn]({PROFILE['linkedin']})")
-    st.markdown(f"[GitHub]({PROFILE['github']})")
+    st.caption(PROFILE["title"])
+    st.divider()
+    st.markdown(f":material/work: [LinkedIn]({PROFILE['linkedin']})")
+    st.markdown(f":material/code: [GitHub]({PROFILE['github']})")
 
-pages = [
-    st.Page("pages/home.py", title="A propos", icon=":material/person:"),
-    st.Page("pages/projects.py", title="Mes Projets", icon=":material/code:"),
-    st.Page("pages/skills.py", title="Compétences", icon=":material/bar_chart:"),
-    st.Page("pages/education.py", title="Education", icon=":material/school:"),
-    st.Page("pages/contact.py", title="Contact", icon=":material/mail:")
+app_pages = [
+    st.Page("app_pages/home.py", title="A propos", icon=":material/person:"),
+    st.Page("app_pages/projects.py", title="Mes Projets", icon=":material/code:"),
+    st.Page("app_pages/experience.py", title="Expériences", icon=":material/work:"),
+    st.Page("app_pages/skills.py", title="Compétences", icon=":material/bar_chart:"),
+    st.Page("app_pages/education.py", title="Education", icon=":material/school:"),
+    st.Page("app_pages/contact.py", title="Contact", icon=":material/mail:")
 ]
 
-st.navigation(pages).run()
+st.navigation(app_pages).run()
