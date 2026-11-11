@@ -6,6 +6,7 @@ secondaryBackgroundColor = "#DDE2C3"
 borderColor = "#6B1F3A"
 baseRadius = "large"
 textColor = "#3A1624"
+linkColor = "#F2C14E"
 
 [theme.light.sidebar]
 backgroundColor = "#6B7036"
@@ -15,6 +16,17 @@ primaryColor = "#F2A33A"
 linkColor = "#F2C14E"
 
 [theme.dark]
-backgroundColor = "#3A1624"
+primaryColor = "#D99A8C"
+backgroundColor = "#25291F"
+secondaryBackgroundColor = "#343B2B"
+borderColor = "#58602B"
+baseRadius = "large"
+textColor = "#F6EEE3"
+linkColor = "#F2C14E"
 
 [theme.dark.sidebar]
+backgroundColor = "#343B2B"
+secondaryBackgroundColor = "#25291F"
+textColor = "#F6EEE3"
+primaryColor = "#F2A33A"
+linkColor = "#F2C14E"
