@@ -3,7 +3,6 @@ from data import PROFILE, PROJECTS, SKILLS
 
 st.title(f"Salut, moi c'est {PROFILE['name']}")
 st.subheader(PROFILE["title"])
-
 left, right = st.columns([1, 2])
 #with left:
     #st.image("assets/photo.png", width=220)

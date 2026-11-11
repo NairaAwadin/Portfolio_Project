@@ -1,7 +1,7 @@
 import streamlit as st
 from data import TIMELINE
 
-st.header("Education")
+st.title(":orange[Education]")
 
 for date, formation, ecole in TIMELINE:
     st.write(f":material/school: **{formation}**")

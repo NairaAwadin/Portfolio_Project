@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from data import SKILLS, SOFT_SKILLS, TOOLS
 
-st.title("Compétences")
+st.title(":orange[Compétences]")
 
 left, right = st.columns(2)
 skills = list(SKILLS.items())
@@ -20,7 +20,7 @@ with right:
 left, right = st.columns(2)
 with left:
     st.subheader("Outils")
-    tools_list = " ".join(f":blue-badge[{tool}]" for tool in TOOLS)
+    tools_list = " ".join(f":green-badge[{tool}]" for tool in TOOLS)
     st.markdown(tools_list)
 
 with right:
@@ -32,4 +32,4 @@ df = pd.DataFrame({
     "skill": list(SKILLS.keys()),
     "level": list(SKILLS.values())
 })
-st.bar_chart(df, x="skill", y="level")
+st.bar_chart(df, x="skill", y="level", color="#E8590C")

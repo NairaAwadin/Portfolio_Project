@@ -3,7 +3,7 @@ from data import PROFILE
 
 st.set_page_config(
     page_title=PROFILE["name"],
-    page_icon="briefcase",
+    page_icon=":briefcase",
     layout="wide",
     )
 
@@ -18,7 +18,7 @@ pages = [
     st.Page("pages/projects.py", title="Mes Projets", icon=":material/code:"),
     st.Page("pages/skills.py", title="Compétences", icon=":material/bar_chart:"),
     st.Page("pages/education.py", title="Education", icon=":material/school:"),
-    st.Page("pages/contact.py", title="Contacte", icon=":material/mail:")
+    st.Page("pages/contact.py", title="Contact", icon=":material/mail:")
 ]
 
 st.navigation(pages).run()

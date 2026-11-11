@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import check_informations, save_emails
 
-st.title("Contact")
+st.title(":orange[Contact]")
 
 with st.form("Me contacter"):
     name = st.text_input("Votre Nom")
